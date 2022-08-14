@@ -4,9 +4,6 @@ font-family: 'Open Sans', sans-serif; */
 body{
   width: 100%;
   height: 100vh;
-}
-
-body{
   display: flex;
   background-color: #192724;
   color: white;
@@ -33,6 +30,19 @@ aside {
 }
 
 .li-home {
+  text-align: left;
+  margin-top: 50%;
+  margin-left: 75%;
+}
+
+.li-home:hover {
+  background-color: #262626;
+  
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.li-home:active {
   text-align: left;
   background-color: #192724;
   

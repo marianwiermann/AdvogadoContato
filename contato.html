@@ -18,31 +18,57 @@
     <title>Advogados</title>
   </head>
   <body>
-    <section>
-      <header>
-        <nav>
-          <ul class="lista-header">
-            <li class="li-home"><a href="index.html">Home</a></li>
-            <li class="li-contato"><a href="contato.html">Contato</a></li>
-          </ul>
-        </nav>
-      </header>
-    </section>
+    <aside>
+      <nav>
+        <ul class="lista-header">
+          <li class="li-home"><a href="index.html">Home</a></li>
+          <li class="li-contato"><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </aside>
 
-    <section>
-      <main>p</main>
+    <main>
+      <label for="nomesobrenome">Nome e Sobrenome</label>
+      <input type="text" id="nomesobrenome" class="input-padrao" requered />
+
+      <label for="telefone">telefone</label>
+      <input
+        type="tel"
+        id="telefone"
+        class="input-padrao"
+        requered
+        placeholder="(xx) xxxxx-xxxx"
+      />
+
+      <label for="assunto">Assunto</label>
+      <textarea id="assunto" class="input-padrao" requered></textarea>
+
+      <fieldset>
+        <legend>Existe alguem profissional de preferencia?</legend>
+        <label>
+          <input type="radio" name="profissional" value="whatsapp" />
+          Monica Geller
+        </label>
+        <label>
+          <input type="radio" name="profissional" value="email" /> Chandler Bing
+        </label>
+        <label>
+          <input type="radio" name="profissional" value="telefone" /> Raquel
+          Green
+        </label>
+        <label>
+          <input type="radio" name="profissional" value="whatsapp" checked />
+          Nenhum
+        </label>
+      </fieldset>
 
       <footer>
         <ul class="lista-footer">
-          <li>Sobre nós</li>
-          <li>Seja Sócio</li>
-          <li>Advogados</li>
-
           <li>Facebook</li>
           <li>Instagram</li>
           <li>Localização</li>
         </ul>
       </footer>
-    </section>
+    </main>
   </body>
 </html>
