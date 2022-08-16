@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contato-style.css" />
     <link rel="stylesheet" href="reset.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,7 +15,7 @@
       rel="stylesheet"
     />
 
-    <title>Advogados</title>
+    <title>Contato</title>
   </head>
   <body>
     <aside>
@@ -28,39 +28,57 @@
     </aside>
 
     <main>
-      <label for="nomesobrenome">Nome e Sobrenome</label>
-      <input type="text" id="nomesobrenome" class="input-padrao" requered />
+      <article>
+        <label for="nomecompleto">Nome completo</label>
+        <input type="text" id="nomecompleto" class="input-padrao" requered />
 
-      <label for="telefone">telefone</label>
-      <input
-        type="tel"
-        id="telefone"
-        class="input-padrao"
-        requered
-        placeholder="(xx) xxxxx-xxxx"
-      />
+        <label for="telefone">telefone</label>
+        <input
+          type="tel"
+          id="telefone"
+          class="input-padrao"
+          requered
+          placeholder="(xx) xxxxx-xxxx"
+        />
 
-      <label for="assunto">Assunto</label>
-      <textarea id="assunto" class="input-padrao" requered></textarea>
+        <fieldset>
+          <legend>Existe alguem profissional de preferencia?</legend>
+          <label>
+            <input type="radio" name="profissional" value="profissional" />
+            Monica Geller
+          </label>
+          <label>
+            <input type="radio" name="profissional" value="profissional" />
+            Chandler Bing
+          </label>
+          <label>
+            <input type="radio" name="profissional" value="profissional" />
+            Raquel Green
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="profissional"
+              value="profissional"
+              checked
+            />
+            Nenhum
+          </label>
+        </fieldset>
 
-      <fieldset>
-        <legend>Existe alguem profissional de preferencia?</legend>
-        <label>
-          <input type="radio" name="profissional" value="whatsapp" />
-          Monica Geller
-        </label>
-        <label>
-          <input type="radio" name="profissional" value="email" /> Chandler Bing
-        </label>
-        <label>
-          <input type="radio" name="profissional" value="telefone" /> Raquel
-          Green
-        </label>
-        <label>
-          <input type="radio" name="profissional" value="whatsapp" checked />
-          Nenhum
-        </label>
-      </fieldset>
+        <label for="horario">Melhor horário para entrarmos em contato</label>
+        <select id="horario">
+          <option selected disabled value="">Selecione</option>
+          <option>Manha</option>
+          <option>Tarde</option>
+          <option>Noite</option>
+        </select>
+
+        <label for="assunto">Assunto</label>
+        <textarea id="assunto" class="input-padrao" requered></textarea>
+
+        <button type="submit">Enviar</button>
+      </article>
 
       <footer>
         <ul class="lista-footer">
