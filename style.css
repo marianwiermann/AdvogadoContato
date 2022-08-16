@@ -9,18 +9,18 @@ body{
   color: white;
 }
 
-a{
-  text-decoration: none;
-  color: white;
-}
-
-/* HEADER */
+/* ----- HEADER ----- */
 aside {
   background-color: #1b1b1b;
   color: white;
   flex: 30%;
 
   text-align: right;
+}
+
+a{
+  text-decoration: none;
+  color: white;
 }
 
 .lista-header li{
@@ -42,7 +42,7 @@ aside {
   border-top-left-radius: 15px;
 }
 
-.li-home:active {
+/* .li-home:active {
   text-align: left;
   background-color: #192724;
   
@@ -51,7 +51,7 @@ aside {
   
   margin-top: 50%;
   margin-left: 75%;
-}
+} */
 
 .li-contato {
   text-align: left;
@@ -66,7 +66,7 @@ aside {
   border-top-left-radius: 15px;
 }
 
-/* BODY */
+/* ----- BODY ----- */
 main{
   display: flex;
   flex: 70%;
@@ -102,6 +102,7 @@ main article{
 }
 
  article p{
+  flex: 1;
   display: flex;
   align-items: center;
   text-align: center;
@@ -110,7 +111,7 @@ main article{
   font-weight: lighter;
 }
 
-/* FOOTER */
+/* ----- FOOTER ----- */
 main footer{
   background-color: #262626;
 }

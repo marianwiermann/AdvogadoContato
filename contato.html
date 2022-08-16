@@ -29,55 +29,76 @@
 
     <main>
       <article>
-        <label for="nomecompleto">Nome completo</label>
-        <input type="text" id="nomecompleto" class="input-padrao" requered />
-
-        <label for="telefone">telefone</label>
-        <input
-          type="tel"
-          id="telefone"
-          class="input-padrao"
-          requered
-          placeholder="(xx) xxxxx-xxxx"
-        />
-
-        <fieldset>
-          <legend>Existe alguem profissional de preferencia?</legend>
-          <label>
-            <input type="radio" name="profissional" value="profissional" />
-            Monica Geller
-          </label>
-          <label>
-            <input type="radio" name="profissional" value="profissional" />
-            Chandler Bing
-          </label>
-          <label>
-            <input type="radio" name="profissional" value="profissional" />
-            Raquel Green
-          </label>
-          <label>
+        <div class="texto">
+          <h1>Contato</h1>
+          <p>Complete as informações abaixo e entraremos em contato.</p>
+        </div>
+        <form class="caixa">
+          <div class="campo">
+            <label for="nomecompleto">Nome completo:</label>
             <input
-              type="radio"
-              name="profissional"
-              value="profissional"
-              checked
+              type="text"
+              id="nomecompleto"
+              class="input-padrao"
+              requered
             />
-            Nenhum
-          </label>
-        </fieldset>
+          </div>
 
-        <label for="horario">Melhor horário para entrarmos em contato</label>
-        <select id="horario">
-          <option selected disabled value="">Selecione</option>
-          <option>Manha</option>
-          <option>Tarde</option>
-          <option>Noite</option>
-        </select>
+          <div class="campo">
+            <label for="telefone">Telefone:</label>
+            <input
+              type="tel"
+              id="telefone"
+              class="input-padrao"
+              requered
+              placeholder="(xx) xxxxx-xxxx"
+            />
+          </div>
 
-        <label for="assunto">Assunto</label>
-        <textarea id="assunto" class="input-padrao" requered></textarea>
+          <fieldset>
+            <legend>Existe algum profissional de preferencia?</legend>
+            <label>
+              <input type="radio" name="profissional" value="profissional" />
+              Monica Geller
+            </label>
+            <label>
+              <input type="radio" name="profissional" value="profissional" />
+              Chandler Bing
+            </label>
+            <label>
+              <input type="radio" name="profissional" value="profissional" />
+              Raquel Green
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="profissional"
+                value="profissional"
+                checked
+              />
+              Nenhum
+            </label>
+          </fieldset>
 
-        <button type="submit">Enviar</button>
+          <div class="campo">
+            <label for="horario"
+              >Melhor horário para entrarmos em contato</label
+            >
+            <select id="horario">
+              <option selected disabled value="">Selecione</option>
+              <option>Manha</option>
+              <option>Tarde</option>
+              <option>Noite</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label for="assunto">Assunto</label>
+            <textarea id="assunto" class="input-padrao" requered></textarea>
+          </div>
+
+          <button class="botao" type="submit">Enviar</button>
+        </form>
       </article>
 
       <footer>
