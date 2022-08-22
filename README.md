@@ -1,8 +1,8 @@
-# Landing Page Huddle
+# Contato Associação
 
 ## Descrição
 
-O projeto desenvolvido é um website de uma assosiação de advogados onde seu principal objetivo é o acesso dos clientes aos assosiados.
+O projeto desenvolvido é um website de uma associação de advogados onde seu principal objetivo é o acesso dos clientes aos associados.
 
 <p align="center"><img src="assets/GIF.gif"></p>
 
