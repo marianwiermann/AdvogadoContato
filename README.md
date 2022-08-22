@@ -2,22 +2,20 @@
 
 ## Descrição
 
-O projeto desenvolvido em linguagem HTML5 e CSS3 é um website de um advogado onde sua premissa é captar contatos de clientes.
+O projeto desenvolvido é um website de uma assosiação de advogados onde seu principal objetivo é o acesso dos clientes aos assosiados.
 
 <p align="center"><img src="assets/GIF.gif"></p>
 
-## Status
-
 ## Objetivo
 
-1. Aplicar formulário
-2. Desenvolver UI
-3. Conectar páginas
+- `Aplicar formulário`
+- `Desenvolver UI`
+- `Conectar páginas`
 
 ## Tecnologias utilizadas
 
-• ''HTML5''
-• ''CSS5''
+- `HTML5`
+- `CSS3`
 
 ## Link de demonstração
 
