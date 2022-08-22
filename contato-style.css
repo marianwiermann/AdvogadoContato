@@ -61,12 +61,6 @@ main{
   flex-direction: column;
 }
 
-main article{
-  flex: 1;
-  /* display: flex;
-  flex-direction: column; */
-}
-
 .texto h1{
   padding-top: 100px;
   padding-right: 100px;
@@ -106,16 +100,12 @@ main article{
   flex-direction: column;
   justify-content: space-between;
 
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: 100px 50%;
+  transform: translate(-50%);
 }
 
 .botao{
-  align-items: center;
   width: 30%;
-  
 }
 
 /* ----- FOOTER ----- */
