@@ -33,6 +33,10 @@ a{
   text-align: left;
   margin-top: 50%;
   margin-left: 75%;
+  background-color: #192724;
+
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
 }
 
 .li-home:hover {
